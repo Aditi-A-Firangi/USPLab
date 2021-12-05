@@ -2,7 +2,7 @@
 
 echo "Enter year: "
 read year
-if [ $((year%4)) -eq 0 ]
+if [ $((year%400)) -eq 0 ]
 then echo "$year is a leap year"
 elif [ $((year%4)) -eq 0 ]
 then echo "$year is a leap year"
